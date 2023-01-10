@@ -1,0 +1,35 @@
+.collapse-title{
+    display: flex;
+    width: 100%;
+    background-color: #FF6060;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.collapse-title h3{margin-left: 20px;}
+
+.collapse-title img{
+    width: 35px;
+    filter: invert(100%);
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.collapse-container{width: 45%;}
+
+.collapse-content{
+    color: #FF6060;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    list-style: none;
+    padding: 20px;
+    background-color: #F6F6F6;
+}
+
+.arrow.open{transform: rotate(-180deg);}

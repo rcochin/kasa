@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px){
+    body{margin: 0px 20px;}
+
+    nav ul .logo {
+        width: 145px;
+        height: 47px;
+        object-fit: cover;
+    }
+    nav{margin-bottom: 22px;}
+    nav ul div{
+        width: 120px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    #header, .header, .header img{height: 111px; border-radius: 10px;}
+    .headline{
+        font-size: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 15px;
+        margin: 0px;
+    }
+    .lodging-container{
+        padding: 0px;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    .lodging-bloc{margin-bottom: 20px;}
+
+    .carrousel-container{height: 255px;}
+
+    .next, .prev {
+        width: 12px;
+        height: 20px;
+    }
+
+    .col-1 h2{font-size: 18px;}
+
+    .column-wrapper{flex-direction: column;}
+
+    .location{font-size: 14px;}
+
+    .col-2{
+        min-width: 0;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .star{font-size: 30px;}
+
+    .single-content{flex-direction: column;}
+
+    .collapse-container{width: 100%;}
+
+    .collapse-title{margin-top: 30px;}
+
+    .collapse-content{background-color: #F6F6F6; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+
+    .tags-container{flex-wrap: wrap;}
+    .tags-container span{padding: 3px 20px; margin-bottom: 10px; border-radius: 5px;}
+
+    .about-container .collapse-container {
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .header-apropos, .header-apropos img{height: 223px !important;}
+}

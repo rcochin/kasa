@@ -1,0 +1,10 @@
+#error-page h1{
+    color: #FF6060;
+    font-size: 288px;
+    margin: 0px;
+}
+
+#error-page{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+#error-page p {font-size: 36px; color: #FF6060; font-weight: 500;}
+
+#error-page a{font-size: 18px; color: #FF6060;}

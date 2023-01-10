@@ -1,0 +1,29 @@
+nav{margin-top: 40px; margin-bottom: 70px;}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul .logo{
+    width: 210px;
+    height: 68px;
+    object-fit: cover;
+}
+
+nav ul div{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    font-size: 24px;
+}
+
+nav ul div .nav-link{
+    color: #FF6060;
+    text-decoration: none;
+}
+
+[aria-current="page"]{ border-bottom: solid 0.7px #FF6060;}

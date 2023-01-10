@@ -1,0 +1,42 @@
+.lodging-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 56px 56px 0px 56px;
+    height: auto;
+    justify-content: flex-start;
+    margin-top: 43px;
+}
+
+.lodging-bloc{
+    width: 490px;
+    height: 490px;
+    border-radius: 10px;
+    list-style: none;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 60px;
+    cursor: pointer;
+    margin-right: 23px;
+    margin-left: 23px;
+}
+
+.gradiant{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    width: 490px;
+    height: 490px;
+    border-radius: 10px;
+}
+
+.lodging-bloc p{
+    font-weight: 500;
+    font-size: 18px;
+    z-index: 2;
+    position: relative;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
